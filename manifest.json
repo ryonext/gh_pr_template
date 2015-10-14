@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "https://github.com/*/compare/*"
       ],
       "js": [
         "content-script.js"
@@ -23,6 +23,6 @@
     "embeded-script.js"
   ],
   "permissions": [
-    "<all_urls>"
+    "https://github.com/*/compare/*"
   ]
 }

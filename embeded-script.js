@@ -1,5 +1,4 @@
-window.MyEmbededProgram = {
-  helloWorld: function() {
-    alert("Hello World!");
-  }
+window.onload = function() {
+  alert("sushi");
+  $("#pull_request_body").text("sushi tabe tai");
 }
