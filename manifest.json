@@ -1,24 +1,19 @@
 {
-  "manifest_version": 2,
-
   "name": "gh_pr_template",
-  "description": "Create template for GitHub pull request.",
   "version": "1.0",
+  "manifest_version": 2,
+  "description": "Create template for GitHub pull request.",
 
+  "permissions": [
+  ],
   "content_scripts": [
     {
       "matches": [
-        "https://github.com/*/compare"
+        "https://github.com/*"
       ],
       "js": [
-        "content-script.js"
+        "app.js"
       ]
     }
-  ],
-  "web_accessible_resources": [
-    "embeded-script.js"
-  ],
-  "permissions": [
-    "https://github.com/*/compare"
   ]
 }
