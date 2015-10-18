@@ -5,6 +5,7 @@
   "description": "Create template for GitHub pull request.",
 
   "permissions": [
+    "https://github.com/*"
   ],
   "content_scripts": [
     {
